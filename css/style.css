@@ -1,0 +1,27 @@
+.jumbotron{
+    background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT6uhUBamX08Y-dzp1TKpZkWeZzMFAd4Wikw&usqp=CAU)
+}
+
+.jumbotron .image{
+    width: 200px;
+}
+
+.jumbotron .lead{
+font-family: 'Courier New', Courier, monospace;
+font-size: 12px;
+}
+
+
+
+@media (min-width: 992px) {
+    .jumbotron .image{
+        width: 400px;
+    }
+    
+    .jumbotron .lead{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    }
+    
+
+}
